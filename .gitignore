@@ -1,0 +1,12 @@
+.venv/
+venv/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.env
+COCO-+-wildlife-+-wild-life-detection-1/
+COCO-3-1/
+NEW-1/
+runs/
+speciesnet_model/
+*.pt

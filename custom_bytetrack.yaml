@@ -1,0 +1,7 @@
+# Ultralytics ByteTrack configuration
+tracker_type: bytetrack  # tracker type
+track_high_thresh: 0.5   # threshold for the first association
+track_low_thresh: 0.1    # threshold for the second association
+new_track_thresh: 0.6    # threshold for init new track if the detection does not match any tracks
+track_buffer: 120        # (CRITICAL) Number of frames to buffer when matched. Increased from 30 to 120 (4 seconds).
+match_thresh: 0.8        # threshold for matching tracks
